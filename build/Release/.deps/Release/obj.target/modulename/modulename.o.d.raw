@@ -1,0 +1,22 @@
+Release/obj.target/modulename/modulename.o: ../modulename.cpp \
+  /Users/sammccord/.node-gyp/0.10.33/src/node.h \
+  /Users/sammccord/.node-gyp/0.10.33/deps/uv/include/uv.h \
+  /Users/sammccord/.node-gyp/0.10.33/deps/uv/include/uv-private/uv-unix.h \
+  /Users/sammccord/.node-gyp/0.10.33/deps/uv/include/uv-private/ngx-queue.h \
+  /Users/sammccord/.node-gyp/0.10.33/deps/uv/include/uv-private/uv-darwin.h \
+  /Users/sammccord/.node-gyp/0.10.33/deps/v8/include/v8.h \
+  /Users/sammccord/.node-gyp/0.10.33/deps/v8/include/v8stdint.h \
+  /Users/sammccord/.node-gyp/0.10.33/src/node_object_wrap.h \
+  ../myo.framework/headers/myo.hpp \
+  ../myo.framework/headers/cxx/DeviceListener.hpp \
+  ../myo.framework/headers/cxx/Pose.hpp \
+  ../myo.framework/headers/cxx/../libmyo.h \
+  ../myo.framework/headers/libmyo/detail/visibility.h \
+  ../myo.framework/headers/cxx/impl/Pose_impl.hpp \
+  ../myo.framework/headers/cxx/Hub.hpp \
+  ../myo.framework/headers/cxx/impl/Hub_impl.hpp \
+  ../myo.framework/headers/cxx/impl/../Myo.hpp \
+  ../myo.framework/headers/cxx/impl/Myo_impl.hpp \
+  ../myo.framework/headers/cxx/impl/../detail/ThrowOnError.hpp \
+  ../myo.framework/headers/cxx/impl/../Quaternion.hpp \
+  ../myo.framework/headers/cxx/Vector3.hpp
