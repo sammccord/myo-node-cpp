@@ -157,9 +157,10 @@ public:
 };
 
 //Handle<Value> Fibonacci(const Arguments& args) {
-v8::Handle<v8::Value> main(const Arguments& args) {
+v8::Handle<v8::Value> main(const v8::Arguments& args)
 //int main()
 {
+		v8::HandleScope scope;
     // We catch any exceptions that might occur below -- see the catch statement for more details.
     try {
 
@@ -209,8 +210,9 @@ v8::Handle<v8::Value> main(const Arguments& args) {
         return v8::Integer::New(1);
     }
     //return v8::Undefined();
-   return v8::Integer::New(0);
+   // return v8::Integer::New(0);
     // return 1;
+    return scope.Close(v8::Undefined());
 }
 
 void RegisterModule(v8::Handle<v8::Object> target) {
